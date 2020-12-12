@@ -31,9 +31,9 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login("vaibhavrijumishra@gmail.com","wldaitzbbgtzpgys")
-    subject="Prices appreciable,AMBANI credit card nikal!"
+    server.login("neetibisht919@gmail.colm","wldaitzbbgtzpgys")
+    subject="Prices decreased to your set limit"
     body="https://www.myntra.com/tshirts/levis/levis-men-black-printed-round-neck-t-shirt/9911349/buy"
     msg=f"Subject:{subject}\n\n{body}"
-    server.sendmail("vaibhavrijumishra@gmail.com","vaibhavrijumishra07@gmail.com",msg)
+    server.sendmail("neetibisht919@gmail.com","vaibhavrijumishra07@gmail.com",msg)
     print("EMAIL HAS BEEN SENT")
